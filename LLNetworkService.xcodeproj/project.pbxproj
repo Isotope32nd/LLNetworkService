@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		364C8D22DB398F190D2AF3DD /* libPods-LLNetworkService.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 64D626696F433FB19CAC2649 /* libPods-LLNetworkService.a */; };
+		4E9372A3FD0E6E9A5B71C59E /* libPods-LLNetworkServiceTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C4E87C85DDAA25889D357964 /* libPods-LLNetworkServiceTests.a */; };
+		91E98FEBE5D698C01F087DDF /* libPods-LLNetworkServiceUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B4E22D3C58BAA37BAC3E8A66 /* libPods-LLNetworkServiceUITests.a */; };
 		CE4E824F21248CD0003FF5FF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CE4E824E21248CD0003FF5FF /* AppDelegate.m */; };
 		CE4E825221248CD0003FF5FF /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE4E825121248CD0003FF5FF /* ViewController.m */; };
 		CE4E825521248CD0003FF5FF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE4E825321248CD0003FF5FF /* Main.storyboard */; };
@@ -15,6 +18,7 @@
 		CE4E825D21248CD1003FF5FF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CE4E825C21248CD1003FF5FF /* main.m */; };
 		CE4E826721248CD1003FF5FF /* LLNetworkServiceTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CE4E826621248CD1003FF5FF /* LLNetworkServiceTests.m */; };
 		CE4E827221248CD1003FF5FF /* LLNetworkServiceUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = CE4E827121248CD1003FF5FF /* LLNetworkServiceUITests.m */; };
+		CE4E828221248DE3003FF5FF /* LLNetworkManager.m in Sources */ = {isa = PBXBuildFile; fileRef = CE4E828121248DE3003FF5FF /* LLNetworkManager.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +39,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		6118F2A91575B078DF93159F /* Pods-LLNetworkServiceUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LLNetworkServiceUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LLNetworkServiceUITests/Pods-LLNetworkServiceUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		64D626696F433FB19CAC2649 /* libPods-LLNetworkService.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-LLNetworkService.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6CDE613F9A95237276224324 /* Pods-LLNetworkServiceUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LLNetworkServiceUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-LLNetworkServiceUITests/Pods-LLNetworkServiceUITests.release.xcconfig"; sourceTree = "<group>"; };
+		90F4628A409A83200636CBAF /* Pods-LLNetworkService.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LLNetworkService.release.xcconfig"; path = "Pods/Target Support Files/Pods-LLNetworkService/Pods-LLNetworkService.release.xcconfig"; sourceTree = "<group>"; };
+		B4E22D3C58BAA37BAC3E8A66 /* libPods-LLNetworkServiceUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-LLNetworkServiceUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C4E87C85DDAA25889D357964 /* libPods-LLNetworkServiceTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-LLNetworkServiceTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE4E824A21248CD0003FF5FF /* LLNetworkService.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LLNetworkService.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE4E824D21248CD0003FF5FF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		CE4E824E21248CD0003FF5FF /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -51,6 +61,11 @@
 		CE4E826D21248CD1003FF5FF /* LLNetworkServiceUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LLNetworkServiceUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE4E827121248CD1003FF5FF /* LLNetworkServiceUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LLNetworkServiceUITests.m; sourceTree = "<group>"; };
 		CE4E827321248CD1003FF5FF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CE4E828021248DE3003FF5FF /* LLNetworkManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LLNetworkManager.h; sourceTree = "<group>"; };
+		CE4E828121248DE3003FF5FF /* LLNetworkManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LLNetworkManager.m; sourceTree = "<group>"; };
+		E8D7B3BC188CAD4E6A45E1BE /* Pods-LLNetworkService.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LLNetworkService.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LLNetworkService/Pods-LLNetworkService.debug.xcconfig"; sourceTree = "<group>"; };
+		F6EF9CF72AD5D3CD53D2A023 /* Pods-LLNetworkServiceTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LLNetworkServiceTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-LLNetworkServiceTests/Pods-LLNetworkServiceTests.release.xcconfig"; sourceTree = "<group>"; };
+		FE06EDFB3CF7B0B180B48D6B /* Pods-LLNetworkServiceTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LLNetworkServiceTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LLNetworkServiceTests/Pods-LLNetworkServiceTests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +73,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				364C8D22DB398F190D2AF3DD /* libPods-LLNetworkService.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,6 +81,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4E9372A3FD0E6E9A5B71C59E /* libPods-LLNetworkServiceTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,12 +89,36 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				91E98FEBE5D698C01F087DDF /* libPods-LLNetworkServiceUITests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		74022B38440DECFAB775EC9E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				64D626696F433FB19CAC2649 /* libPods-LLNetworkService.a */,
+				C4E87C85DDAA25889D357964 /* libPods-LLNetworkServiceTests.a */,
+				B4E22D3C58BAA37BAC3E8A66 /* libPods-LLNetworkServiceUITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B18A3B45D85B0298D61CF75D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E8D7B3BC188CAD4E6A45E1BE /* Pods-LLNetworkService.debug.xcconfig */,
+				90F4628A409A83200636CBAF /* Pods-LLNetworkService.release.xcconfig */,
+				FE06EDFB3CF7B0B180B48D6B /* Pods-LLNetworkServiceTests.debug.xcconfig */,
+				F6EF9CF72AD5D3CD53D2A023 /* Pods-LLNetworkServiceTests.release.xcconfig */,
+				6118F2A91575B078DF93159F /* Pods-LLNetworkServiceUITests.debug.xcconfig */,
+				6CDE613F9A95237276224324 /* Pods-LLNetworkServiceUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		CE4E824121248CD0003FF5FF = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +126,8 @@
 				CE4E826521248CD1003FF5FF /* LLNetworkServiceTests */,
 				CE4E827021248CD1003FF5FF /* LLNetworkServiceUITests */,
 				CE4E824B21248CD0003FF5FF /* Products */,
+				B18A3B45D85B0298D61CF75D /* Pods */,
+				74022B38440DECFAB775EC9E /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,6 +144,7 @@
 		CE4E824C21248CD0003FF5FF /* LLNetworkService */ = {
 			isa = PBXGroup;
 			children = (
+				CE4E827F21248DB4003FF5FF /* LLNetworkService */,
 				CE4E824D21248CD0003FF5FF /* AppDelegate.h */,
 				CE4E824E21248CD0003FF5FF /* AppDelegate.m */,
 				CE4E825021248CD0003FF5FF /* ViewController.h */,
@@ -132,6 +176,15 @@
 			path = LLNetworkServiceUITests;
 			sourceTree = "<group>";
 		};
+		CE4E827F21248DB4003FF5FF /* LLNetworkService */ = {
+			isa = PBXGroup;
+			children = (
+				CE4E828021248DE3003FF5FF /* LLNetworkManager.h */,
+				CE4E828121248DE3003FF5FF /* LLNetworkManager.m */,
+			);
+			path = LLNetworkService;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -139,6 +192,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = CE4E827621248CD1003FF5FF /* Build configuration list for PBXNativeTarget "LLNetworkService" */;
 			buildPhases = (
+				0BC271798B1B13B4CE67D9D3 /* [CP] Check Pods Manifest.lock */,
 				CE4E824621248CD0003FF5FF /* Sources */,
 				CE4E824721248CD0003FF5FF /* Frameworks */,
 				CE4E824821248CD0003FF5FF /* Resources */,
@@ -156,6 +210,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = CE4E827921248CD1003FF5FF /* Build configuration list for PBXNativeTarget "LLNetworkServiceTests" */;
 			buildPhases = (
+				B8AB85C8EE637331337E935F /* [CP] Check Pods Manifest.lock */,
 				CE4E825E21248CD1003FF5FF /* Sources */,
 				CE4E825F21248CD1003FF5FF /* Frameworks */,
 				CE4E826021248CD1003FF5FF /* Resources */,
@@ -174,6 +229,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = CE4E827C21248CD1003FF5FF /* Build configuration list for PBXNativeTarget "LLNetworkServiceUITests" */;
 			buildPhases = (
+				DD21527C72725F5C292D1834 /* [CP] Check Pods Manifest.lock */,
 				CE4E826921248CD1003FF5FF /* Sources */,
 				CE4E826A21248CD1003FF5FF /* Frameworks */,
 				CE4E826B21248CD1003FF5FF /* Resources */,
@@ -257,6 +313,63 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0BC271798B1B13B4CE67D9D3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LLNetworkService-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B8AB85C8EE637331337E935F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LLNetworkServiceTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DD21527C72725F5C292D1834 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LLNetworkServiceUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		CE4E824621248CD0003FF5FF /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -265,6 +378,7 @@
 				CE4E825221248CD0003FF5FF /* ViewController.m in Sources */,
 				CE4E825D21248CD1003FF5FF /* main.m in Sources */,
 				CE4E824F21248CD0003FF5FF /* AppDelegate.m in Sources */,
+				CE4E828221248DE3003FF5FF /* LLNetworkManager.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -431,6 +545,7 @@
 		};
 		CE4E827721248CD1003FF5FF /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E8D7B3BC188CAD4E6A45E1BE /* Pods-LLNetworkService.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -448,6 +563,7 @@
 		};
 		CE4E827821248CD1003FF5FF /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 90F4628A409A83200636CBAF /* Pods-LLNetworkService.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -465,6 +581,7 @@
 		};
 		CE4E827A21248CD1003FF5FF /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FE06EDFB3CF7B0B180B48D6B /* Pods-LLNetworkServiceTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
@@ -484,6 +601,7 @@
 		};
 		CE4E827B21248CD1003FF5FF /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F6EF9CF72AD5D3CD53D2A023 /* Pods-LLNetworkServiceTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
@@ -503,6 +621,7 @@
 		};
 		CE4E827D21248CD1003FF5FF /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6118F2A91575B078DF93159F /* Pods-LLNetworkServiceUITests.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = N43NWL5C72;
@@ -521,6 +640,7 @@
 		};
 		CE4E827E21248CD1003FF5FF /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6CDE613F9A95237276224324 /* Pods-LLNetworkServiceUITests.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = N43NWL5C72;
