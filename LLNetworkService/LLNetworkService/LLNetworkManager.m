@@ -8,7 +8,7 @@
 
 #import "LLNetworkManager.h"
 
-#import <AFNetworking.h>
+//#import <AFNetworking.h>
 
 @interface LLNetworkManager ()
 
@@ -85,5 +85,17 @@ static LLNetworkManager *_defaultManager;
     return dataTask;
 }
 
+- (NSURLSessionDataTask *)upload:(NSString *)serverUrl apiPath:(NSString *)apiPath parameters:(NSDictionary *)parameters constructingBodyWithBlock:(void (^)(id<AFMultipartFormData>))block progress:(void (^)(NSProgress *))uploadProgress responseHandler:(LLNetworkResponseBlock)responseHandler {
+    
+    NSString *fullUrl = [self fullUrlWithServer:serverUrl apiPath:apiPath];
+    
+    NSURLSessionDataTask *dataTask = [self.sessionManager POST:fullUrl parameters:parameters constructingBodyWithBlock:block progress:uploadProgress success:^(NSURLSessionDataTask * _Nonnull task, id  _Nullable responseObject) {
+        responseHandler(task, nil, responseObject);
+    } failure:^(NSURLSessionDataTask * _Nullable task, NSError * _Nonnull error) {
+        responseHandler(task, error, nil);
+    }];
+    
+    return dataTask;
+}
 
 @end
